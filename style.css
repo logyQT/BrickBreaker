@@ -20,24 +20,3 @@ body {
     aspect-ratio: 16/9;
     cursor: none;
 }
-.scores {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 10vh;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    opacity: 0.5;
-}
-.scores p {
-    margin: 0;
-    width: 50%;
-    font-size: 7vh;
-    font-family: sans-serif;
-    padding: 0 2vh;
-}
-.scores :first-child {
-    text-align: right;
-}
